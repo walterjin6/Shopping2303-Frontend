@@ -3,5 +3,5 @@ import axios from 'axios'
 export default axios.create({
   baseURL: process.env.NODE_ENV === 'development'
       ? 'http://localhost:5000'
-      : 'https://shopping2303-api.onrender.com',
+      : 'https://shoppingnow-api.onrender.com',
 })
